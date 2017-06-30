@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.music{
+    display: block;
+    background: url("../img/music.png") no-repeat;
+    width: 0.6rem;
+    height: 0.6rem;
+    position: fixed;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-size: 0.6rem 0.6rem;
+    z-index: 999;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-slide{
+    background: url("../img/bj.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow: hidden;
+}
+.hide{
+    display: none !important;
+}
+.page1 .quan{
+    background: url("../img/quan.png") no-repeat;
+    background-size: 100% 100%;
+    width: 5rem;
+    height: 4.7rem;
+    color:#12a69c;
+    font-weight: bold;
+    text-align: center;
+    font-size:1.5rem;
+    padding-top: 0.3rem;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    margin-left: -2.5rem;
+}
+.page1 .xian{
+    border: 0.01rem solid #12a69c;
+    width: 0;
+    height: 5rem;
+    display: block;
+    position: absolute;
+    transform: skew(-45deg);
+}
+.page1 .quan>span:nth-child(2){
+    right: 1.2rem;
+    top: -4.54rem;
+}
+.page1 .quan>span:nth-child(3){
+
+    left: 1.5rem;
+}
+.page2 .dingwei{
+    position: absolute;
+    left: 1.3rem;
+    background: url("../img/shuxian.png") no-repeat;
+    height:100%;
+    width: 1rem;
+}
+.page2 .top{
+    position: absolute;
+    left: 1.5rem;
+    top: 0.5rem;
+    color:#12a69c;
+    height: 2.4rem;
+    width: 100%;
+}
+.page2 .top .tu{
+    background: url("../img/bangechilun.png") no-repeat;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+.page2 .top span{
+    font-weight: bold;
+    float: left;
+    font-size: 0.8rem;
+}
+.page2 .top .mulu{
+    margin-left: -1.9rem;
+    margin-top: 0.6rem;
+}
+.page2 .top .xiaozi{
+    font-size: 0.5rem;
+    margin-top: 1rem;
+    margin-left: -0.2rem;
+}
+.page2 ul{
+    position: absolute;
+    top: 3.5rem;
+    left: 0.6rem;
+    width: 100%;
+}
+.page2 ul li{
+    margin-bottom: 1rem;
+}
+.page2 ul .dan{
+    background: url("../img/chilun.png") no-repeat;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-size: 100% 100%;
+    float: left;
+    color: #12a69c;
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 1.2rem;
+}
+.page2 ul .shuang{
+    background: url("../img/xian.png") no-repeat;
+    margin-left: 1rem;
+    line-height: 1.3rem;
+    color: wheat;
+    height: 1.3rem;
+    width: 4.8rem;
+    font-size: 0.4rem;
+    text-align: center;
+    background-size: 100% 100%;
+    font-weight: bold;
+}
+.swiper-slide>img{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.swiper-slide>.chilun1{
+    left: -0.5rem;
+    top: -0.5rem;
+}
+.swiper-slide>.chilun2{
+    width: 2.5rem;
+    height: 2.5rem;
+    right: -1.2rem;
+    top: -1.2rem;
+}
+.swiper-slide>.chilun3{
+    right: -0.8rem;
+    top: 1.1rem;
+}
+.swiper-slide>.chilun4{
+    left: -0.6rem;
+    bottom:-0.8rem;
+}
+.swiper-slide>.chilun5{
+    left: 0.85rem;
+    bottom:-0.5rem;
+}
+.swiper-slide>.chilun8{
+    right: -0.6rem;
+    bottom:-0.8rem;
+}
+.swiper-slide>.chilun7{
+    right: 0.85rem;
+    bottom:-0.5rem;
+}
+.swiper-slide>.chilun6{
+    width: 2.8rem;
+    height: 2.8rem;
+    right: 2.3rem;
+    bottom: -1.9rem;
+}
+.page3>p{
+    color: #12a69c;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.page3>p span{
+    display: block;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.page3 ul{
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+.page3 ul li{
+    font-size: 0.5rem;
+}
+.page3 .heng{
+    height: 0;
+    width: 6rem;
+    border-top: 0.01rem solid #12a69c;
+    margin: 0.3rem 0;
+}
+.page3 .reiong{
+    height:1.05rem;
+    color:#12a69c;
+    font-weight: bold;
+    line-height: 1.05rem;
+}
+.page3 .reiong img{
+    float: left;
+    margin-right: 0.5rem;
+}
+.page3 .reiong span{
+    color: white;
+    font-weight: lighter;
+    margin-left: 0.8rem;
+    font-size: 0.4rem;
+}
+
+.page4>p{
+    color: #12a69c;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.page4>p span{
+    display: block;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.page4 ul{
+     width: 7rem;
+     height: 7rem;
+    position: relative;
+}
+.page4 .heng{
+    height: 0;
+    width: 6rem;
+    border-top: 0.01rem solid #12a69c;
+    margin: 0.3rem 0;
+    margin-left: 0.5rem;
+}
+.page4 .hexin{
+    background: url("../img/jineng.png") no-repeat;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100% 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 0.51rem;
+    line-height: 2.5rem;
+}
+.page4 .he1{
+    left: 1.05rem;
+    top:1.2rem;
+}
+.page4 .he2{
+    right: 1.05rem;
+    top: 1.2rem;
+}
+.page4 .he3{
+    right: 2.2rem;
+    top: 3.5rem;
+}
+.page4 .he4{
+    left: 0rem;
+    bottom: 1.15rem;
+}
+.page4 .he5{
+    right: 0rem;
+    bottom: 1.15rem;
+}
+.page4 .he6{
+    left: 1.05rem;
+    bottom:-1rem;
+}
+.page4 .he7{
+    right: 1.05rem;
+    bottom: -1rem;
+}
+.page4 .zhongxin{
+    background: url("../img/zhongxin.png") no-repeat;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.page4 li>span{
+    color: white;
+}
+.page4 .xiabian{
+    position: absolute;
+    bottom: -1.5rem;
+}
+.page4 .shangbian{
+    position: absolute;
+    top: 0.5rem;
+}
+
+.page5>p{
+    color: #12a69c;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.page5>p span{
+    display: block;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.page5 ul{
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+}
+.page5 .tupian{
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+}
+.page5 .tupian img{
+    width: 100%;
+    height: 100%;
+}
+.page5 .tupian span{
+    font-size: 0.4rem;
+    text-align: center;
+    display: block;
+    margin-top: -0.2rem;
+    color: #12a69c;
+}
+.page5 .tu1{
+    left: 1rem;
+    top: 1rem;
+}
+.page5 .tu2{
+    right: 1rem;
+    top: 1rem;
+}
+.page5 .tu3{
+    left: 1rem;
+    bottom: -0.5rem;
+}
+.page5 .tu4{
+    right: 1rem;
+    bottom: -0.5rem;
+}
+.page5 .xiabian{
+    position: absolute;
+    bottom: -1.5rem;
+}
+.page5 .shangbian{
+    position: absolute;
+    top: 0.5rem;
+}
+.page5 .heng{
+    height: 0;
+    width: 6rem;
+    border-top: 0.01rem solid #12a69c;
+    margin: 0.3rem 0;
+    margin-left: 0.5rem;
+}
+.page5 .ziti{
+    font-size: 0.5rem;
+    color: #12a69c;
+}
+.page6>p{
+    color: #12a69c;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+.page6>p span{
+    display: block;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.page6 ul{
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+}
+.page6 .tupian{
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+}
+.page6 .tupian img{
+    width: 100%;
+    height: 100%;
+}
+.page6 .tupian span{
+    font-size: 0.4rem;
+    text-align: center;
+    display: block;
+    margin-top: -0.2rem;
+    color: #12a69c;
+}
+.page6 .tu1{
+    left: 1rem;
+    top: 1rem;
+}
+.page6 .tu2{
+    right: 1rem;
+    top: 1rem;
+}
+.page6 .tu3{
+    left: 1rem;
+    bottom: -0.5rem;
+}
+.page6 .tu4{
+    right: 1rem;
+    bottom: -0.5rem;
+}
+.page6 .xiabian{
+    position: absolute;
+    bottom: -1.5rem;
+}
+.page6 .shangbian{
+    position: absolute;
+    top: 0.5rem;
+}
+.page6 .heng{
+    height: 0;
+    width: 6rem;
+    border-top: 0.01rem solid #12a69c;
+    margin: 0.3rem 0;
+    margin-left: 0.5rem;
+}
+.page6 .ziti{
+    font-size: 0.5rem;
+    color: #12a69c;
+}
+.page7 .quan{
+    background: url("../img/quan.png") no-repeat;
+    background-size: 100% 100%;
+    width: 5rem;
+    height: 4.7rem;
+    color:#12a69c;
+    font-weight: bold;
+    text-align: center;
+    font-size:1.5rem;
+    padding-top: 0.3rem;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    margin-left: -2.5rem;
+}
+.page7 .xian{
+    border: 0.01rem solid #12a69c;
+    width: 0;
+    height: 5rem;
+    display: block;
+    position: absolute;
+    transform: skew(-45deg);
+}
+.page7 .quan>span:nth-child(2){
+    right: 1.2rem;
+    top: -4.54rem;
+}
+.page7 .quan>span:nth-child(3){
+    left: 1.5rem;
+}
